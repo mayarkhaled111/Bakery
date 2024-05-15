@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+p{
+    color: #696868;
+    line-height: 1.5;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    letter-spacing: 1.5px;
+}
+h2{
+    font-size: 32px;
+    margin: 15px 0px;
+    font-family: "Alegreya", sans-serif;
+    font-weight: 400;
+}
+h3{
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Alegreya", sans-serif;
+    font-weight: 400;
+}
+.home{
+    background-image: url(image/drew-coffman-1872.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vb;
+    text-align: center;
+}
+.home .logo{
+    float: left;
+    width: 200px;
+    padding: 20px 50px;
+}
+.home .logo img{
+    width: 100%;
+}
+.home .list .links{
+    float: right;
+    padding: 20px;
+    margin: 20px;
+}
+.home .links a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.home .list .links a:hover{
+    color: #8E7754;
+}
+.container{
+    margin:  auto;
+    color: #F0EFEE;
+    line-height: 2;
+    padding-top: 150px;
+    letter-spacing: 1.7px;
+}
+.container p{
+    color: #F0EFEE;
+    font-size: 24px;
+}
+.container h1{
+    font-family: "Alegreya", sans-serif;
+    font-size: 50px;
+}
+.container button{
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+}
+.container button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
+.container .Lmore{
+    border: 1px solid #8E7754;
+    background-color: #8E7754;
+}
+.container .cont-us{
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+
+.about-us{
+    padding: 70px;
+}
+
+.about-us div.image{
+    display: inline-block;
+    width: 45%;
+}
+.about-us .image img{
+    width: 100%;
+}
+.about-us .info{
+    display: inline-block;
+    width: 45%;
+    margin-left: 50px;
+    vertical-align: 60px;
+}
+.about-us .info .respo{
+    margin-top: 10px;
+}
+.about-us .info .respo p{
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: 10px;
+}
+.about-us .info .respo .image{
+    width: 7%;
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+}
+
+.our-location{
+    padding: 70px;
+    background-color: #F8F8F8;
+}
+.our-location .text{
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+}
+.our-location .image{
+    float: right;
+    width: 40%;
+}
+.our-location .image img{
+    width: 100%;
+}
+
+
+
+.baking{
+    text-align: center;
+    padding: 70px;
+}
+div.item{
+    width: 30%;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+}
+div.item img{
+    width: 100%;
+}
+.contact{
+    padding: 70px;
+    background-color: #F8F8F8;
+}
+.contact .info{
+    float: left;
+    width: 45%;
+    padding: 30px;
+}
+.contact .imag{
+    float: right;
+    width: 45%;
+    padding: 20px;
+}
+
+.contact .info .respo{
+    margin-top: 10px;
+}
+.contact .info .respo p{
+    padding-left: 60px;
+}
+.contact .info .respo .image{
+    float: left;
+    width: 8%;
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+}
+.contact img{
+    width: 100%;
+}
+.details{
+    padding: 70px 5px;
+    background-color: #403D38;
+    color: white;
+}
+.details hr{
+    border-bottom: 1px solid #696868;
+}
+.details img{
+    width: 100%;
+}
+.details h3{
+    margin-left: 10px;
+}
+.details .sec{
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+.details .sec .info .image{
+    float: left;
+    width: 13%;
+}
+.details .sec .info p{
+    padding-left: 30px;
+}
+.footer{
+    padding: 70px;
+    text-align: center;
+    background-color: #353330;
+}
+.footer .logo img{
+    width: 30%;
+}
+.footer .app img{
+    width: 40px;
+    background-color: #4a4948;
+    border-radius: 50%;
+    margin-top: 10px;
+}
